@@ -49,6 +49,8 @@ func main() {
 
 	// criando uma seed para gerar um numero aleatorio usando o tempo atual:
 	source := rand.NewSource(time.Now().UnixNano())
+	fmt.Println("Time.Now().UnixNano():")
+	fmt.Println(time.Now().UnixNano())
 	// criando o gerador de numeros aleatorios usando a seed acima
 	random := rand.New(source)
 	// gerando numeros aleatorios de 0 a 99
