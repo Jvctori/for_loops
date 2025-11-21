@@ -6,7 +6,7 @@ func main() {
 	// for i (inicializador):= 0 ; (condição)
 	// ... i <= 5; i++ (acrescenta mais um)
 	// simple iteration over a range
-	for i := 0; i <= 5; i++ {
+	/*for i := 0; i <= 5; i++ {
 		fmt.Println(i)
 	}
 	//a
@@ -23,7 +23,7 @@ func main() {
 	}*/
 
 	// break and continue statments
-	for i := 1; i <= 10; i++ {
+	/*for i := 1; i <= 10; i++ {
 
 		if i%2 == 0 {
 			fmt.Println("Even number:", i)
@@ -36,6 +36,18 @@ func main() {
 			break
 		}
 
+	}*/
+	rows := 5
+	// outer loop
+	for i:=1; i<=rows; i++ {
+		// inner loop
+		for j:=1; j<=rows-i;j++ {
+			fmt.Print(" ")
+		}
+		// inner loops for stars
+		for k:=1; k<=2*i-1; k++ {
+			fmt.Print("*")
+		}
+		fmt.Println()
 	}
-
 }
