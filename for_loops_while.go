@@ -64,7 +64,7 @@ func main() {
 	var guess int
 	fmt.Println("Endereço da variavel guess:", &guess)
 	for {
-		fmt.Println("Enter yor gues: ")
+		fmt.Println("Enter yor guess: ")
 		// passando o endereço da memoria
 		// ... se for passado a variavel diretamente criará uma cópia
 		fmt.Scanln(&guess)
