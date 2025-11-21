@@ -1,0 +1,22 @@
+Logical Operators (Operadores lógicos):
+
+	! (logical NOT: não)
+	|| (logical OR: ou)
+	&& (logical AND: e)
+
+Bitwise operators: 
+
+	& (bitwise AND)
+	| (bitwise OR)
+	^ (biwise XOR)
+	&^ (bitwise, AND NOT)
+	<< (left shift)
+	>> (right shift)
+
+Comparison Operators (Operadores de comparação):
+	== (equal: é igual a)
+	!= (not equal: não é igual a)
+	< (less than: menor que)
+	<= (less than or equal to: menor ou igual que)
+	> (greater than: maior que)
+	>= (greater than or equal to: maior ou igual que)
